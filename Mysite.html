@@ -2,17 +2,23 @@
 <html lang="ja">
   <head>
     <meta charset="UTH-8">
+    <meta name="viewport" content="width=device-width">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Mysite</title>
   </head>
   <body>
     <header>
-      <div class="header-group">
+      <div class="container header-group">
         <div class="nav-image">
           <a href="#mv">
             <img class="logo" src="img/logo.png" alt="ロゴ">
           </a>
+        </div>
+        <div class="menu-box">
+          <span class="list-bar"></span>
+          <span class="list-bar"></span>
+          <span class="list-bar"></span>
         </div>
         <nav>
           <lu class="nav">
@@ -26,7 +32,7 @@
     </header>
 
     <section id="mv">
-      <div class="main-visual">
+      <div class="container">
         <h1 class="mv-title">Lorem Ipsum</h1>
         <p class="mv-text">simply dummy text of the printing</p>
       </div>
@@ -40,18 +46,18 @@
         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
         <div class="pf-img-group">
+          <div class="pf-img none"></div>
           <div class="pf-img"></div>
+          <div class="pf-img none"></div>
           <div class="pf-img"></div>
-          <div class="pf-img"></div>
-          <div class="pf-img"></div>
-          <div class="pf-img"></div>
+          <div class="pf-img none"></div>
           <div class="pf-img"></div>
         </div>
       </div>
     </section>
 
     <section id="feature">
-      <div class="ft">
+      <div class="container">
         <h2 class="title">Feature</h2>
         <p class="text">It is a long established fact that a reader will be distracted by the readable<br>
           content of a page when looking at its layout.<br>
@@ -78,7 +84,7 @@
     </section>
 
     <section id="profile">
-      <div class="pro">
+      <div class="container">
         <h2 class="title">Profile</h2>
         <p class="text">It is a long established fact that a reader will be distracted by the readable<br>
           content of a page when looking at its layout.<br>
